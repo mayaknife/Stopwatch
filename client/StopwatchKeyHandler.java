@@ -1,4 +1,4 @@
-package com.gooroos.stopwatch.client;
+package com.gooroos.Stopwatch.client;
 
 import java.util.EnumSet;
 

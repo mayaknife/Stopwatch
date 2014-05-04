@@ -1,6 +1,6 @@
-package com.gooroos.stopwatch;
+package com.gooroos.Stopwatch;
 
-import com.gooroos.stopwatch.client.Timer;
+import com.gooroos.Stopwatch.client.Timer;
 
 public class CommonProxy {
 	public void registerKeyBindings(Timer timer)

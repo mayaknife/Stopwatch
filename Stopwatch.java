@@ -1,4 +1,4 @@
-package com.gooroos.stopwatch;
+package com.gooroos.Stopwatch;
 
 import net.minecraftforge.common.MinecraftForge;
 import cpw.mods.fml.common.Mod;
@@ -12,7 +12,7 @@ import cpw.mods.fml.common.network.NetworkMod;
 import cpw.mods.fml.common.registry.TickRegistry;
 import cpw.mods.fml.relauncher.Side;
 
-import com.gooroos.stopwatch.client.Timer;
+import com.gooroos.Stopwatch.client.Timer;
 
 @Mod(modid="Stopwatch", name="Stopwatch", version="0.1.0")
 @NetworkMod(clientSideRequired=true)
@@ -23,7 +23,7 @@ public class Stopwatch {
         public static Stopwatch instance;
        
         // Says where the client and server 'proxy' code is loaded.
-        @SidedProxy(clientSide="com.gooroos.stopwatch.client.ClientProxy", serverSide="com.gooroos.stopwatch.CommonProxy")
+        @SidedProxy(clientSide="com.gooroos.Stopwatch.client.ClientProxy", serverSide="com.gooroos.Stopwatch.CommonProxy")
         public static CommonProxy proxy;
        
         @EventHandler

@@ -1,11 +1,11 @@
-package com.gooroos.stopwatch.client;
+package com.gooroos.Stopwatch.client;
 
 import org.lwjgl.input.Keyboard;
 
 import net.minecraft.client.settings.KeyBinding;
 import cpw.mods.fml.client.registry.KeyBindingRegistry;
 
-import com.gooroos.stopwatch.CommonProxy;
+import com.gooroos.Stopwatch.CommonProxy;
 
 
 public class ClientProxy extends CommonProxy {
